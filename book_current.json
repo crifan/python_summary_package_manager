@@ -1,0 +1,22 @@
+{
+  "title": "管理好Python的库：包管理器",
+  "description": "介绍如何用包管理器尤其是pip去管理好Python的库。先进行基本的概述，包括常见的Python包管理器有easy_install、setuptools、pip；然后详细阐述pip：包括常用的命令，比如pip install、pip uninstall、pip show、pip list、pip search、pip freeze。其中包括pip install的各种语法和各种举例说明；以及如何给pip下载加速，包括更换源和加代理的方法和具体操作步骤；总结了pip常见的一些问题，包括command not found pip、Could not install packages due to an EnvironmentError Errno 13 Permission denied、Retrying after connection broken by NewConnectionError、使用pip时要注意是python2还是python3、以及部分可以情况下不用pip管理python的库；然后整理了pip相关的一些内容，包括虚拟环境工具pipenv、通过pip查看site-packages位置等；最后给出参考资料。",
+  "pluginsConfig": {
+    "autocover": {
+      "title": "Gitbook演示"
+    },
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "python_summary_package_manager"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.com/gitbook/python_summary_package_manager/website/"
+    },
+    "toolbar-button": {
+      "url": "http://book.crifan.com/books/python_summary_package_manager/pdf/python_summary_package_manager.pdf"
+    }
+  }
+}
